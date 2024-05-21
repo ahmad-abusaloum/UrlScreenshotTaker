@@ -24,6 +24,7 @@ URL Screenshot Taker is a .NET console application that takes screenshots of web
 ![image](https://github.com/ahmad-abusaloum/UrlScreenshotTaker/assets/25351143/b9368365-804a-4023-8737-c23386e60d77)
 
 ## If you are working on a Windows environment:
+Download Visual Studio, then open the project through it, then build the project, then follow the following steps:
 1. Download `.Net Framework 4.7.2` library
 2. Download code
 3. Go to this path: `bin\Debug`
