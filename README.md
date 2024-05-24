@@ -1,33 +1,72 @@
-# URL Screenshot Taker
+# UrlScreenshotTaker
 
-URL Screenshot Taker is a .NET console application that takes screenshots of web pages specified in a `domains.txt` file. The application uses PuppeteerSharp to automate browser tasks and capture the screenshots, storing them in a designated directory.
+![Project Image](https://github.com/ahmad-abusaloum/UrlScreenshotTaker/assets/25351143/b9368365-804a-4023-8737-c23386e60d77)
+
+## Overview
+
+UrlScreenshotTaker is a tool designed to take screenshots of a list of domains on Windows. This project aims to simplify the process of capturing website screenshots programmatically.
 
 ## Features
-* Reads URLs from a domains.txt file.
-* Ensures a screenshots directory exists to store captured screenshots.
-* Utilizes PuppeteerSharp for headless browser automation.
-* Provides progress feedback via a progress bar.
-* Handles various URL formats and validates input.
+
+- Capture screenshots of multiple domains
+- Easy to configure and use
+- Built with .NET for Windows
+
+## Prerequisites
+
+- Windows OS
+- Visual Studio (Community, Professional, or Enterprise)
+- .NET SDK
 
 ## Installation
-1. Clone the repository:
-   - git clone https://github.com/yourusername/url-screenshot-taker.git
-   - cd url-screenshot-taker
 
-2. Restore the necessary .NET packages:
-   - dotnet restore
+1. **Clone the repository:**
 
-3. Install PuppeteerSharp:
-   - npm install puppeteer
+    ```sh
+    git clone https://github.com/ahmad-abusaloum/UrlScreenshotTaker.git
+    ```
 
-## Image Example :
-![image](https://github.com/ahmad-abusaloum/UrlScreenshotTaker/assets/25351143/b9368365-804a-4023-8737-c23386e60d77)
+2. **Open the project in Visual Studio:**
 
-## If you are working on a Windows environment:
-Download Visual Studio, then open the project through it, then build the project, then follow the following steps:
-1. Download `.Net Framework 4.7.2` library
-2. Download code
-3. Go to this path: `bin\Debug`
-4. Find the `domains.txt` file and fill in the links you want to target
-5. Go to the `\bin\Debug\screenshots` folder and make sure it is empty.
-6. Search for the program called `UrlScreenshotTaker.exe`
+    - Launch Visual Studio.
+    - Click on `File -> Open -> Project/Solution`.
+    - Navigate to the cloned repository and select `UrlScreenshotTaker.sln`.
+
+3. **Restore dependencies:**
+
+    Visual Studio should automatically restore the required NuGet packages. If not, right-click on the solution in the Solution Explorer and select `Restore NuGet Packages`.
+
+## Usage
+
+1. **Build the project:**
+
+    - In Visual Studio, select `Build -> Build Solution` or press `Ctrl+Shift+B`.
+
+2. **Run the project:**
+
+    - Set the project as the startup project (if not already set).
+    - Press `F5` or click on `Debug -> Start Debugging` to run the application.
+
+3. **Configure domains:**
+
+    - Edit the `domains.txt` file located in the project directory to include the list of domains you wish to capture screenshots for.
+
+4. **Capture screenshots:**
+
+    - The application will read the domains from the `domains.txt` file and capture screenshots, saving them to the designated output directory.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Download
+
+[Download the project here](https://github.com/ahmad-abusaloum/UrlScreenshotTaker/archive/refs/heads/main.zip)
+
+---
+
+Ahmad Abu Saloum
