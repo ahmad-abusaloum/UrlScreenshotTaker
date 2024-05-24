@@ -63,10 +63,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## Download
-
-[Download the project here](https://github.com/ahmad-abusaloum/UrlScreenshotTaker/archive/refs/heads/main.zip)
-
 ---
 
 Ahmad Abu Saloum
