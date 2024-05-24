@@ -49,7 +49,8 @@ class Program
             }
         }
 
-        Console.WriteLine("\nAll URLs processed.");
+        Console.WriteLine("\nAll URLs processed ^_^");
+        Console.ReadLine();
     }
 
     static async Task<bool> ProcessUrl(IBrowser browser, string domain, string screenshotsDirectory)
