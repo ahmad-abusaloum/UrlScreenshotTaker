@@ -59,10 +59,6 @@ UrlScreenshotTaker is a tool designed to take screenshots of a list of domains o
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ---
 
 Ahmad Abu Saloum
